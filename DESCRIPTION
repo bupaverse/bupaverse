@@ -1,0 +1,23 @@
+Package: bupaverse
+Type: Package
+Title: Easily Install and Load the 'bupaverse'
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Gerard","van Hulzen", email = "gerard.vanhulzen@uhasselt.be", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-8962-9515")),
+    person("Gert","Janssenswillen", email = "gert.janssenswillen@uhasselt.be", role = c("aut"), comment = c(ORCID = "0000-0002-7474-2088"))
+    )
+Description: The 'bupaverse' is an open-source, integrated suite of R-packages for the handling and analysis of business process data,
+    developed by the Business Informatics research group at Hasselt University, Belgium. This package is designed to facilitate the
+    installation and loading multiple 'bupaverse' packages in a single step. Learn more about 'bupverse' at <https://www.bupar.net>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends:
+	R (>= 3.5.0)
+URL:
+    https://www.bupar.net,
+    https://github.com/bupaverse/bupaverse,
+    https://bupaverse.github.io/bupaverse/
+Imports: 
+    lifecycle
