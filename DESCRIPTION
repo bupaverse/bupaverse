@@ -30,7 +30,6 @@ Suggests:
     covr,
     knitr,
     rmarkdown
-URL:
-    https://www.bupar.net,
+URL:https://www.bupar.net,
     https://github.com/bupaverse/bupaverse,
     https://bupaverse.github.io/bupaverse/
