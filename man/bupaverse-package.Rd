@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-The 'bupaverse' is an open-source, integrated suite of R-packages for the handling and analysis of business process data, developed by the Business Informatics research group at Hasselt University, Belgium. This package is designed to facilitate the installation and loading multiple 'bupaverse' packages in a single step. Learn more about 'bupverse' at \url{https://www.bupar.net}.
+The 'bupaverse' is an open-source, integrated suite of R-packages for handling and analysing business process data, developed by the Business Informatics research group at Hasselt University, Belgium. Profoundly inspired by the 'tidyverse' package, the 'bupaverse' package is designed to facilitate the installation and loading of multiple 'bupaverse' packages in a single step. Learn more about 'bupaverse' at the \url{https://www.bupar.net} homepage.
 }
 \seealso{
 Useful links:
@@ -20,11 +20,11 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Gerard van Hulzen \email{gerard.vanhulzen@uhasselt.be} (\href{https://orcid.org/0000-0001-8962-9515}{ORCID})
+\strong{Maintainer}: Gert Janssenswillen \email{gert.janssenswillen@uhasselt.be} (\href{https://orcid.org/0000-0002-7474-2088}{ORCID})
 
 Authors:
 \itemize{
-  \item Gert Janssenswillen \email{gert.janssenswillen@uhasselt.be} (\href{https://orcid.org/0000-0002-7474-2088}{ORCID})
+  \item Gerard van Hulzen \email{gerard.vanhulzen@uhasselt.be} (\href{https://orcid.org/0000-0001-8962-9515}{ORCID})
 }
 
 }

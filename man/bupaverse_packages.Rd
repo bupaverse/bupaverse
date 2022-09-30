@@ -12,3 +12,7 @@ bupaverse_packages(include_self = TRUE)
 \description{
 List all packages in the bupaverse
 }
+\examples{
+bupaverse_packages()
+
+}

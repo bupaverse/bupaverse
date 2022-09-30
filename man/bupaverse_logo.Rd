@@ -12,3 +12,7 @@ bupaverse_logo(unicode = l10n_info()$`UTF-8`)
 \description{
 Use \code{\link[cli:ansi_strip]{cli::ansi_strip()}} to get rid of the colors.
 }
+\examples{
+bupaverse_logo()
+
+}

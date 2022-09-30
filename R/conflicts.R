@@ -4,6 +4,9 @@
 #' @description
 #' This function lists all the conflicts between packages in the [`bupaverse`] and other packages that you have loaded.
 #'
+#' @examples
+#' bupaverse_conflicts()
+#'
 #' @export
 bupaverse_conflicts <- function() {
 

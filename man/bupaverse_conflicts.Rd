@@ -9,3 +9,7 @@ bupaverse_conflicts()
 \description{
 This function lists all the conflicts between packages in the \code{\link{bupaverse}} and other packages that you have loaded.
 }
+\examples{
+bupaverse_conflicts()
+
+}

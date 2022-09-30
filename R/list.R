@@ -3,6 +3,9 @@
 #'
 #' @param include_self [`logical`] (default `TRUE`): Include bupaverse in the list?
 #'
+#' @examples
+#' bupaverse_packages()
+#'
 #' @export
 bupaverse_packages <- function(include_self = TRUE) {
 

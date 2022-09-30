@@ -5,7 +5,9 @@
 #'
 #' @param unicode [`logical`] (default `TRUE`): Whether to use Unicode symbols. Default is `TRUE` on UTF-8 platforms.
 #'
-#' @md
+#' @examples
+#' bupaverse_logo()
+#'
 #' @export
 bupaverse_logo <- function(unicode = l10n_info()$`UTF-8`) {
   logo <- "
