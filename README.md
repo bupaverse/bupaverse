@@ -8,7 +8,7 @@
 [![CRAN
 status](https://www.r-pkg.org/badges/version/bupaverse)](https://CRAN.R-project.org/package=bupaverse)
 [![GitHub
-version](https://img.shields.io/badge/GitHub-0.0.0.9000-blue)](https://github.com/bupaverse/bupaverse)
+version](https://img.shields.io/badge/GitHub-0.1.0-blue)](https://github.com/bupaverse/bupaverse)
 [![R-CMD-check](https://github.com/bupaverse/bupaverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bupaverse/bupaverse/actions/workflows/R-CMD-check.yaml)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
@@ -70,8 +70,8 @@ library(bupaverse)
 #> |  |_)  | |  `--'  | |  |     /  _____  \  \    /    |  |____ |  |\  \----.----)   |   |  |____
 #> |______/   \______/  | _|    /__/     \__\  \__/     |_______|| _| `._____|_______/    |_______|
 #>                                                                                                 
-#> ── Attaching packages ────────────────────────────────── bupaverse 0.0.0.9000 ──
-#> ✔ bupaR         0.5.1     ✔ processcheckR 0.2.0
+#> ── Attaching packages ─────────────────────────────────────── bupaverse 0.1.0 ──
+#> ✔ bupaR         0.5.2     ✔ processcheckR 0.2.0
 #> ✔ edeaR         0.9.1     ✔ processmapR   0.5.2
 #> ✔ eventdataR    0.3.1     
 #> ── Conflicts ────────────────────────────────────────── bupaverse_conflicts() ──

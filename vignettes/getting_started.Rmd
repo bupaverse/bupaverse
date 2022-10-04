@@ -19,7 +19,7 @@ authors:
 affiliations:
 - name: Research group Business Informatics, Hasselt University
   index: 1
-date: XX October 2022
+date: 04 October 2022
 bibliography: references.bib
 vignette: >
   %\VignetteIndexEntry{Getting Started with bupaR}
