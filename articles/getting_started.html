@@ -92,11 +92,10 @@
 <div class="section level2">
 <h2 id="getting-started-with-bupar">Getting Started with bupaR<a class="anchor" aria-label="anchor" href="#getting-started-with-bupar"></a>
 </h2>
-<p>The <strong>bupaverse</strong> (alias <strong>bupaR</strong> <span class="citation">(Janssenswillen et al. 2019)</span>) is an open-source, integrated suite of <a href="https://www.r-project.org/" class="external-link"><code>R</code></a>-packages <span class="citation">(R Core Team 2022)</span> for handling and analysing business process data, developed by the <a href="https://www.uhasselt.be/binf" class="external-link">Business Informatics Research Group</a> at Hasselt University, Belgium. Profoundly inspired by the <a href="https://www.tidyverse.org/" class="external-link"><strong>tidyverse</strong></a> <span class="citation">(Wickham et al. 2019)</span> package, the <strong>bupaverse</strong> package is designed to facilitate the installation and loading multiple <strong>bupaverse</strong> packages in a single step.</p>
-</div>
-<div class="section level2">
-<h2 id="bupaverse-package">bupaverse Package<a class="anchor" aria-label="anchor" href="#bupaverse-package"></a>
-</h2>
+<p>The <strong>bupaverse</strong> (alias <strong>bupaR</strong> <span class="citation">(Janssenswillen et al. 2019)</span>) is an open-source, integrated suite of <a href="https://www.r-project.org/" class="external-link"><code>R</code></a>-packages <span class="citation">(R Core Team 2022)</span> for handling and analysing business process data, developed by the <a href="https://www.uhasselt.be/binf" class="external-link">Business Informatics Research Group</a> at Hasselt University, Belgium. Profoundly inspired by the <a href="https://www.tidyverse.org/" class="external-link"><strong>tidyverse</strong></a> <span class="citation">(Wickham et al. 2019)</span> package, the <strong>bupaverse</strong> package is designed to facilitate the installation and loading of multiple <strong>bupaverse</strong> packages in a single step.</p>
+<div class="section level3">
+<h3 id="bupaverse-package">bupaverse Package<a class="anchor" aria-label="anchor" href="#bupaverse-package"></a>
+</h3>
 <p>The <strong>bupaverse</strong> is a collection of packages that can be conveniently installed from <a href="https://cran.r-project.org/" class="external-link">CRAN</a> using a single <code>R</code> command:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"bupaverse"</span><span class="op">)</span></span></code></pre></div>
@@ -105,13 +104,13 @@
 <li>
 <a href="https://bupaverse.github.io/bupaR/" class="external-link"><strong>bupaR</strong></a>: Core package for business process analysis.</li>
 <li>
-<a href="https://bupaverse.github.io/edeaR/" class="external-link"><strong>edeaR</strong></a>: Exploratory and descriptive analysis of event based data.</li>
+<a href="https://bupaverse.github.io/edeaR/" class="external-link"><strong>edeaR</strong></a>: Exploratory and descriptive analysis of event-based data.</li>
 <li>
 <a href="https://bupaverse.github.io/eventdataR/" class="external-link"><strong>eventdataR</strong></a>: Repository of sample process data.</li>
 <li>
 <a href="https://bupaverse.github.io/processcheckR/" class="external-link"><strong>processcheckR</strong></a>: Rule-based conformance checking and filtering.</li>
 <li>
-<a href="https://bupaverse.github.io/processmapR/" class="external-link"><strong>processmapR</strong></a>: Visualise event based data using, i.a., process maps.</li>
+<a href="https://bupaverse.github.io/processmapR/" class="external-link"><strong>processmapR</strong></a>: Visualise event-based data using, i.a., process maps.</li>
 </ul>
 <p>To start using these packages, you can load them all using a single <code>R</code> command:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
@@ -124,11 +123,11 @@
 <span><span class="co"><span style="color: #5FAFAF;">#&gt; |  |_)  | |  `--'  | |  |     /  _____  \  \    /    |  |____ |  |\  \----.----)   |   |  |____</span></span></span>
 <span><span class="co"><span style="color: #5FAFAF;">#&gt; |______/   \______/  | _|    /__/     \__\  \__/     |_______|| _| `._____|_______/    |_______|</span></span></span>
 <span><span class="co"><span style="color: #5FAFAF;">#&gt;                                                                                                 </span></span></span>
-<span><span class="co">#&gt; -- <span style="font-weight: bold;">Attaching packages</span> --------------------------- bupaverse 0.1.0 --</span></span>
+<span><span class="co">#&gt; -- <span style="font-weight: bold;">Attaching packages</span> --------------------------------------- bupaverse 0.1.0 --</span></span>
 <span><span class="co">#&gt; <span style="color: #00BB00;">v</span> <span style="color: #0000BB;">bupaR        </span> 0.5.1     <span style="color: #00BB00;">v</span> <span style="color: #0000BB;">processcheckR</span> 0.1.4</span></span>
 <span><span class="co">#&gt; <span style="color: #00BB00;">v</span> <span style="color: #0000BB;">edeaR        </span> 0.9.1     <span style="color: #00BB00;">v</span> <span style="color: #0000BB;">processmapR  </span> 0.5.2</span></span>
 <span><span class="co">#&gt; <span style="color: #00BB00;">v</span> <span style="color: #0000BB;">eventdataR   </span> 0.3.1     </span></span>
-<span><span class="co">#&gt; -- <span style="font-weight: bold;">Conflicts</span> ------------------------------ bupaverse_conflicts() --</span></span>
+<span><span class="co">#&gt; -- <span style="font-weight: bold;">Conflicts</span> ------------------------------------------ bupaverse_conflicts() --</span></span>
 <span><span class="co">#&gt; <span style="color: #BB0000;">x</span> <span style="color: #0000BB;">bupaR</span>::<span style="color: #00BB00;">filter()</span>          masks <span style="color: #0000BB;">stats</span>::filter()</span></span>
 <span><span class="co">#&gt; <span style="color: #BB0000;">x</span> <span style="color: #0000BB;">processmapR</span>::<span style="color: #00BB00;">frequency()</span> masks <span style="color: #0000BB;">stats</span>::frequency()</span></span>
 <span><span class="co">#&gt; <span style="color: #BB0000;">x</span> <span style="color: #0000BB;">edeaR</span>::<span style="color: #00BB00;">setdiff()</span>         masks <span style="color: #0000BB;">base</span>::setdiff()</span></span>
@@ -137,14 +136,24 @@
 <p>In addition to attaching the “core” packages, this command also reports which package versions were loaded and conflicts with previously loaded packages.</p>
 <p><code>install.packages("bupaverse")</code> also installs “non-core” packages which are required for <strong>bupaverse</strong> to function. The “non-core” packages include: <a href="https://cli.r-lib.org" class="external-link"><strong>cli</strong></a> <span class="citation">(Csárdi 2022)</span>, <a href="https://glue.tidyverse.org/" class="external-link"><strong>glue</strong></a> <span class="citation">(Hester and Bryan 2022)</span>, <a href="https://magrittr.tidyverse.org/" class="external-link"><strong>magrittr</strong></a> <span class="citation">(Bache and Wickham 2022)</span>, <a href="https://purrr.tidyverse.org/" class="external-link"><strong>purrr</strong></a> <span class="citation">(Henry and Wickham 2022a)</span>, and <a href="https://rlang.r-lib.org/" class="external-link"><strong>rlang</strong></a> <span class="citation">(Henry and Wickham 2022b)</span>. Note that these packages are not attached by <code><a href="https://bupar.net/" class="external-link">library(bupaverse)</a></code>.</p>
 </div>
-<div class="section level2">
-<h2 id="acknowledgements">Acknowledgements<a class="anchor" aria-label="anchor" href="#acknowledgements"></a>
-</h2>
+<div class="section level3">
+<h3 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
+</h3>
+<p>After the package has been loaded, you can start analysing process data, e.g., you can analyse and plot the processing time for each activity in the sample dataset <code><a href="https://rdrr.io/pkg/eventdataR/man/example_log.html" class="external-link">eventdataR::patients</a></code>. Learn more about <strong>bupaverse</strong> at the <a href="https://bupar.net/" class="external-link">bupaR.net</a> homepage.</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">patients</span> <span class="op">%&gt;%</span></span>
+<span>  <span class="fu">processing_time</span><span class="op">(</span>level <span class="op">=</span> <span class="st">"activity"</span><span class="op">)</span> <span class="op">%&gt;%</span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<p><img src="getting_started_files/figure-html/example-1.png" width="100%"></p>
+</div>
+<div class="section level3">
+<h3 id="acknowledgements">Acknowledgements<a class="anchor" aria-label="anchor" href="#acknowledgements"></a>
+</h3>
 <p>The <strong>bupaverse</strong> development team would like to warmly thank all users who are actively contributing to the <strong>bupaverse</strong> framework by submitting issues and pull requests on the <a href="https://github.com/bupaverse" class="external-link">GitHub repositories</a>.</p>
 </div>
-<div class="section level2">
-<h2 class="unnumbered" id="references">References<a class="anchor" aria-label="anchor" href="#references"></a>
-</h2>
+<div class="section level3">
+<h3 class="unnumbered" id="references">References<a class="anchor" aria-label="anchor" href="#references"></a>
+</h3>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-Rmagrittr" class="csl-entry">
 Bache, Stefan Milton, and Hadley Wickham. 2022. <em><span class="nocase">magrittr</span>: A Forward-Pipe Operator for <span>R</span></em>. Boston, MA, USA: RStudio. <a href="https://magrittr.tidyverse.org/" class="external-link">https://magrittr.tidyverse.org/</a>.
@@ -169,6 +178,7 @@ R Core Team. 2022. <em>R: A Language and Environment for Statistical Computing</
 </div>
 <div id="ref-wickhamWelcomeTidyverse2019" class="csl-entry">
 Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019. <span>“Welcome to the <span>Tidyverse</span>.”</span> <em>Journal of Open Source Software</em> 4 (43): 1686. <a href="https://doi.org/10.21105/joss.01686" class="external-link">https://doi.org/10.21105/joss.01686</a>.
+</div>
 </div>
 </div>
 </div>
