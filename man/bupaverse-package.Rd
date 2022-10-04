@@ -13,8 +13,8 @@ The 'bupaverse' is an open-source, integrated suite of R-packages for handling a
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://www.bupar.net}
-  \item \url{https://github.com/bupaverse/bupaverse}
+  \item \url{https://bupar.net/}
+  \item \url{https://github.com/bupaverse/bupaverse/}
   \item \url{https://bupaverse.github.io/bupaverse/}
 }
 

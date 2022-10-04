@@ -19,9 +19,9 @@ The **bupaverse** is an open-source, integrated suite of
 business process data, developed by the Business Informatics research
 group at Hasselt University, Belgium. Profoundly inspired by the
 [**tidyverse**](https://www.tidyverse.org/) package, the **bupaverse**
-package is designed to facilitate the installation and loading multiple
-**bupaverse** packages in a single step. Learn more about **bupaverse**
-at the [bupaR.net](https://bupar.net/) homepage.
+package is designed to facilitate the installation and loading of
+multiple **bupaverse** packages in a single step. Learn more about
+**bupaverse** at the [bupaR.net](https://bupar.net/) homepage.
 
 ## Installation
 
@@ -49,13 +49,13 @@ devtools::install_github("bupaverse/bupaverse")
 - [**bupaR**](https://bupaverse.github.io/bupaR/): Core package for
   business process analysis.
 - [**edeaR**](https://bupaverse.github.io/edeaR/): Exploratory and
-  descriptive analysis of event based data.
+  descriptive analysis of event-based data.
 - [**eventdataR**](https://bupaverse.github.io/eventdataR/): Repository
   of sample process data.
 - [**processcheckR**](https://bupaverse.github.io/processcheckR/):
   Rule-based conformance checking and filtering.
 - [**processmapR**](https://bupaverse.github.io/processmapR/): Visualise
-  event based data using, i.a., process maps.
+  event-based data using, i.a., process maps.
 
 An overview of the loaded packages and conflicts with other packages is
 shown after loading **bupaverse**:
