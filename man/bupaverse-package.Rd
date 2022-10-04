@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-The 'bupaverse' is an open-source, integrated suite of R-packages for handling and analysing business process data, developed by the Business Informatics research group at Hasselt University, Belgium. Profoundly inspired by the 'tidyverse' package, the 'bupaverse' package is designed to facilitate the installation and loading of multiple 'bupaverse' packages in a single step. Learn more about 'bupaverse' at the \url{https://www.bupar.net} homepage.
+The 'bupaverse' is an open-source, integrated suite of R-packages for handling and analysing business process data, developed by the Business Informatics research group at Hasselt University, Belgium. Profoundly inspired by the 'tidyverse' package, the 'bupaverse' package is designed to facilitate the installation and loading of multiple 'bupaverse' packages in a single step. Learn more about 'bupaverse' at the \url{https://bupar.net} homepage.
 }
 \seealso{
 Useful links:
