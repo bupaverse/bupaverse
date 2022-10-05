@@ -15,3 +15,6 @@ news:
   one_page: true
   cran_dates: true
   releases:
+
+deploy:
+  install_metadata: true
