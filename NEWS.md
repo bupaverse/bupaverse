@@ -1,3 +1,3 @@
-# bupaverse 0.0.0.9000
+# bupaverse 0.1.0
 
 * Initial release of **bupaverse**.
