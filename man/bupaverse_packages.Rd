@@ -7,7 +7,10 @@
 bupaverse_packages(include_self = TRUE)
 }
 \arguments{
-\item{include_self}{\code{\link{logical}} (default \code{TRUE}): Include bupaverse in the list?}
+\item{include_self}{\code{\link{logical}} (default \code{TRUE}): Include \code{\link{bupaverse}} in the list?}
+}
+\value{
+Returns a \code{\link{list}} of all packages included in the \code{\link{bupaverse}}.
 }
 \description{
 List all packages in the bupaverse

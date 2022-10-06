@@ -2,14 +2,20 @@
 % Please edit documentation in R/logo.R
 \name{bupaverse_logo}
 \alias{bupaverse_logo}
-\title{The bupaverse logo, using ASCII or Unicode characters}
+\title{The bupaverse logo}
 \usage{
 bupaverse_logo(unicode = l10n_info()$`UTF-8`)
 }
 \arguments{
 \item{unicode}{\code{\link{logical}} (default \code{TRUE}): Whether to use Unicode symbols. Default is \code{TRUE} on UTF-8 platforms.}
 }
+\value{
+Returns a \code{\link{character}} representing the \code{\link{bupaverse}} logo.
+}
 \description{
+The \code{\link{bupaverse}} logo, using ASCII or Unicode characters.
+}
+\details{
 Use \code{\link[cli:ansi_strip]{cli::ansi_strip()}} to get rid of the colors.
 }
 \examples{

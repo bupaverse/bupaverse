@@ -1,9 +1,16 @@
 # From https://github.com/tidyverse/tidyverse/blob/main/R/logo.R
-#' @title The bupaverse logo, using ASCII or Unicode characters
+#' @title The bupaverse logo
 #'
-#' @description Use [`cli::ansi_strip()`] to get rid of the colors.
+#' @description
+#' The [`bupaverse`] logo, using ASCII or Unicode characters.
 #'
 #' @param unicode [`logical`] (default `TRUE`): Whether to use Unicode symbols. Default is `TRUE` on UTF-8 platforms.
+#'
+#' @details
+#' Use [`cli::ansi_strip()`] to get rid of the colors.
+#'
+#' @returns
+#' Returns a [`character`] representing the [`bupaverse`] logo.
 #'
 #' @examples
 #' bupaverse_logo()

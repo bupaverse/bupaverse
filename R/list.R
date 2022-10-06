@@ -1,7 +1,10 @@
 # From https://github.com/tidyverse/tidyverse/blob/main/R/utils.R
 #' @title List all packages in the bupaverse
 #'
-#' @param include_self [`logical`] (default `TRUE`): Include bupaverse in the list?
+#' @param include_self [`logical`] (default `TRUE`): Include [`bupaverse`] in the list?
+#'
+#' @returns
+#' Returns a [`list`] of all packages included in the [`bupaverse`].
 #'
 #' @examples
 #' bupaverse_packages()
