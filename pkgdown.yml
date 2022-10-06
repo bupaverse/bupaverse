@@ -3,7 +3,7 @@ pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   getting_started: getting_started.html
-last_built: 2022-10-05T10:15Z
+last_built: 2022-10-06T09:22Z
 urls:
   reference: https://bupaverse.github.io/bupaverse/reference
   article: https://bupaverse.github.io/bupaverse/articles
